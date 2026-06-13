@@ -1,0 +1,138 @@
+aid: classlink
+name: ClassLink
+description: >-
+  ClassLink is an EdTech identity and access management platform purpose-built
+  for K-12 school districts, providing single sign-on (SSO) to over 6,000
+  digital learning resources through its LaunchPad portal. The platform offers
+  a OneRoster-compliant REST API for secure rostering and student data exchange,
+  enabling automated provisioning and synchronization between student information
+  systems and educational applications. ClassLink OneSync handles identity
+  management and account provisioning integrations with any SIS, while Roster
+  Server facilitates standards-based data sharing using OAuth 1.0 and OAuth 2.0.
+  The Analytics and Analytics+ products expose usage telemetry APIs that help
+  district administrators track edtech engagement and license utilization across
+  all devices. ClassLink maintains open developer resources including
+  multi-language request libraries (C#, Java, JavaScript, PHP, Ruby, Python, Go)
+  on GitHub and a partner developer portal.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - EdTech
+  - Education
+  - Identity
+  - Single Sign-On
+  - SSO
+  - OneRoster
+  - Rostering
+  - Provisioning
+  - Analytics
+  - K-12
+  - LTI
+  - OAuth
+  - Student Data
+apis:
+  - name: ClassLink OneRoster API
+    description: >-
+      OneRoster v1.1-compliant REST API for exchanging K-12 roster data—users,
+      orgs, courses, classes, enrollments, academicSessions, demographics, and
+      resources—between ClassLink Roster Server and third-party educational
+      applications using OAuth 1.0a or OAuth 2.0.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://help.classlink.com/s/rosterserver-home
+    baseURL: https://launchpad.classlink.com
+    tags:
+      - OneRoster
+      - Rostering
+      - Students
+      - Courses
+      - Enrollments
+    properties:
+      - type: Documentation
+        url: https://help.classlink.com/s/rosterserver-home
+      - type: OpenAPI
+        url: https://sandbox-vn-v2.oneroster.com/ims/oneroster/v1p1
+  - name: ClassLink OAuth2 / SSO API
+    description: >-
+      OAuth 2.0 authorization code flow enabling third-party applications to
+      authenticate users via ClassLink LaunchPad, obtain access tokens, and
+      retrieve identity profile data including name, email, and district
+      affiliation through the LaunchPad scoped API.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://help.classlink.com/s/classlink-partners-home
+    baseURL: https://launchpad.classlink.com/oauth2/v2
+    tags:
+      - OAuth2
+      - SSO
+      - Authentication
+      - Identity
+      - OpenID Connect
+    properties:
+      - type: Documentation
+        url: https://help.classlink.com/s/classlink-partners-home
+  - name: ClassLink Analytics API
+    description: >-
+      API providing district-level edtech usage analytics, application
+      engagement metrics, and license utilization data gathered by ClassLink
+      Analytics and Analytics+, enabling administrators and vendors to
+      programmatically access telemetry on how digital resources are used across
+      school devices.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.classlink.com/products/analytics
+    baseURL: https://launchpad.classlink.com
+    tags:
+      - Analytics
+      - Usage Data
+      - EdTech
+      - Reporting
+    properties:
+      - type: Documentation
+        url: https://www.classlink.com/products/analytics
+  - name: ClassLink Application Provisioning API
+    description: >-
+      REST API for provisioning and managing application accounts within
+      ClassLink, allowing administrators to automate creation, update, and
+      deprovisioning of user accounts in connected applications through
+      ClassLink's application catalog and connector framework.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://help.classlink.com/s/classlink-partners-home
+    baseURL: https://launchpad.classlink.com
+    tags:
+      - Provisioning
+      - Identity
+      - User Management
+      - Applications
+    properties:
+      - type: Documentation
+        url: https://help.classlink.com/s/classlink-partners-home
+common:
+  - type: Website
+    url: https://www.classlink.com/
+  - type: Documentation
+    url: https://help.classlink.com/s/classlink-partners-home
+  - type: GitHubOrg
+    url: https://github.com/classlinkinc
+  - type: GitHubRepository
+    url: https://github.com/classlinkinc/request-libraries
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/classlink
+  - type: X
+    url: https://twitter.com/classlink
+  - type: Blog
+    url: https://www.classlink.com/resources/blog
+  - type: Pricing
+    url: https://www.classlink.com/contact
+  - type: StatusPage
+    url: https://status.classlink.com/
+  - type: Plans
+    url: plans/classlink-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/classlink-rate-limits.yml
+  - type: FinOps
+    url: finops/classlink-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

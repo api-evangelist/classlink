@@ -1,0 +1,52 @@
+specificationVersion: '0.1'
+id: classlink-rate-limits
+name: ClassLink API Rate Limits
+description: >-
+  ClassLink does not publicly document specific numeric rate limits for its
+  OneRoster, OAuth2, or Analytics APIs. Rate limiting behavior is enforced
+  server-side and may vary by district configuration, contract tier, and
+  endpoint. The OneRoster API default page size is 100 records per request with
+  support for limit and offset pagination parameters. Integrators experiencing
+  throttling should contact ClassLink partner support.
+provider: classlink
+url: https://help.classlink.com/s/classlink-partners-home
+rateLimits:
+  - name: OneRoster API Default Page Size
+    description: >-
+      The OneRoster REST API returns a maximum of 100 records per request by
+      default. Clients must use the limit and offset query parameters to paginate
+      through larger result sets.
+    scope: per-request
+    limit: 100
+    unit: records
+    endpoints:
+      - /ims/oneroster/v1p1/users
+      - /ims/oneroster/v1p1/orgs
+      - /ims/oneroster/v1p1/courses
+      - /ims/oneroster/v1p1/classes
+      - /ims/oneroster/v1p1/enrollments
+      - /ims/oneroster/v1p1/academicSessions
+      - /ims/oneroster/v1p1/demographics
+      - /ims/oneroster/v1p1/resources
+  - name: API Rate Limits (General)
+    description: >-
+      ClassLink has not published explicit per-minute or per-day rate limits for
+      its APIs. Throttling is applied at the infrastructure level. High-volume
+      integrators should implement exponential backoff and contact ClassLink
+      support for guidance on expected throughput.
+    scope: undisclosed
+    limit: undisclosed
+    unit: requests
+    notes: Contact ClassLink partner support for rate limit details specific to your integration.
+pagination:
+  type: offset
+  parameters:
+    - name: limit
+      description: Maximum number of records to return per page (default 100)
+      default: 100
+    - name: offset
+      description: Number of records to skip before returning results
+      default: 0
+contact:
+  url: https://help.classlink.com/s/classlink-partners-home
+  email: helpdesk@classlink.com

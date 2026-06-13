@@ -1,0 +1,74 @@
+specificationVersion: '1.0'
+id: classlink-finops
+name: ClassLink FinOps Framework
+description: >-
+  FinOps framework for managing ClassLink API and platform costs within K-12
+  district and EdTech vendor environments. ClassLink licensing is district-wide
+  and custom-quoted, so financial governance focuses on contract management,
+  usage optimization, and ensuring license coverage aligns with actual
+  enrollment and application usage data surfaced via the Analytics API.
+provider: classlink
+standard: FOCUS-1.0
+url: https://www.classlink.com/contact
+costModel:
+  type: subscription
+  billingCycle: annual
+  pricingBasis: per-district
+  pricingTransparency: opaque
+  publicPricing: false
+  notes: >-
+    ClassLink sells annual district licenses. Pricing is not public and is
+    determined by district enrollment size, product modules selected (LaunchPad,
+    Roster Server, OneSync, Analytics), and contract negotiations. Renewal costs
+    should be benchmarked against district enrollment changes each fiscal year.
+spend:
+  categories:
+    - name: District License
+      description: Annual subscription covering LaunchPad SSO and core identity services
+      costDriver: per-district enrollment band
+      optimizationTip: >-
+        Negotiate multi-year contracts for discount. Verify enrollment counts
+        match contracted user bands before renewal.
+    - name: Analytics Add-On
+      description: >-
+        Optional Analytics or Analytics+ module for usage reporting and license
+        optimization
+      costDriver: per-district add-on fee
+      optimizationTip: >-
+        Use ClassLink Analytics data to identify underutilized application
+        licenses and negotiate removal from district software contracts.
+    - name: Integration / Partner Fees
+      description: >-
+        For EdTech vendors, integration costs include developer time to implement
+        OneRoster and OAuth2; no API call fees are publicly documented.
+      costDriver: engineering hours
+      optimizationTip: >-
+        Leverage ClassLink's free request libraries (GitHub: classlinkinc/request-libraries)
+        in C#, Java, JavaScript, PHP, Ruby, Python, or Go to reduce integration
+        development time.
+optimization:
+  recommendations:
+    - Use ClassLink Analytics to audit which applications are actively used vs
+      licensed, and remove unused apps to reduce SaaS spend across the district.
+    - Implement OneRoster automated rostering to eliminate manual CSV roster
+      maintenance labor costs.
+    - Take advantage of ClassLink's free partner program for EdTech vendors to
+      avoid third-party integration middleware costs.
+    - Monitor ClassLink status page (status.classlink.com) to track SLA
+      compliance and document incidents for contract renewal negotiations.
+allocation:
+  strategy: >-
+    Map ClassLink costs to individual school buildings or departments using
+    district enrollment data available via the OneRoster /orgs endpoint.
+    Apportion licensing fees proportionally based on active user counts per org
+    sourced from the Analytics API.
+  tags:
+    - district
+    - school
+    - department
+    - product-module
+governance:
+  renewalReview: annual
+  contactForPricing: https://www.classlink.com/contact
+  licenseAuditSource: ClassLink Analytics API
+  statusMonitoring: https://status.classlink.com/

@@ -1,0 +1,60 @@
+specificationVersion: '0.1'
+id: classlink-plans-pricing
+name: ClassLink Plans and Pricing
+description: >-
+  ClassLink does not publish standard public pricing tiers. Licensing is sold
+  directly to K-12 school districts and educational institutions through a
+  custom quote process based on district size, number of users, and the specific
+  product bundle selected. Interested districts should contact ClassLink sales
+  for a quote.
+provider: classlink
+url: https://www.classlink.com/contact
+plans:
+  - name: District License
+    description: >-
+      Custom annual license for K-12 school districts covering LaunchPad SSO,
+      Roster Server, and OneSync identity provisioning. Pricing is based on
+      district enrollment size and contracted product modules.
+    type: Commercial
+    audience: K-12 School Districts
+    pricingModel: Custom / Contact for Quote
+    pricingPage: https://www.classlink.com/contact
+    features:
+      - ClassLink LaunchPad Single Sign-On
+      - OneRoster Roster Server
+      - OneSync SIS provisioning
+      - Multi-Factor Authentication
+      - Application catalog access (6,000+ apps)
+      - Mobile apps (iOS, Android, Chrome)
+  - name: Analytics Add-On
+    description: >-
+      Optional add-on providing edtech usage analytics dashboards and reporting
+      for district administrators. Analytics+ extends coverage to all digital
+      resources used on district devices.
+    type: Commercial
+    audience: K-12 School Districts
+    pricingModel: Custom / Contact for Quote
+    pricingPage: https://www.classlink.com/contact
+    features:
+      - Application usage dashboards
+      - Per-user engagement metrics
+      - License utilization reporting
+      - Analytics+ device-level tracking
+  - name: Developer / Partner Integration
+    description: >-
+      Free partner developer access for EdTech vendors integrating with
+      ClassLink via the OneRoster API, OAuth2 SSO, or the application catalog.
+      Requires enrollment in the ClassLink Partner Program.
+    type: Partner
+    audience: EdTech Vendors and Developers
+    pricingModel: Free (Partner Program)
+    pricingPage: https://help.classlink.com/s/classlink-partners-home
+    features:
+      - OAuth2 developer credentials
+      - OneRoster sandbox access
+      - Request libraries (7 languages)
+      - Partner portal and documentation
+      - Test district data environment
+contact:
+  email: info@classlink.com
+  url: https://www.classlink.com/contact
