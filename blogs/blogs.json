@@ -1,0 +1,306 @@
+{
+  "provider": "classlink",
+  "blogUrl": "https://www.classlink.com/resources/blog",
+  "lastFetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Meet a Parent-Focused Partner and 18 New App Integrations",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-may-2026",
+      "date": "2026-05-27",
+      "category": "Partnerships",
+      "description": "New integrations address district priorities: tools supporting instruction, simplify operations, and provide better visibility across systems."
+    },
+    {
+      "title": "From Ban To Balance: A Smarter Approach to Technology in Schools",
+      "url": "https://www.classlink.com/blog/from-ban-to-balance-a-smarter-approach-to-technology-in-schools",
+      "date": "2026-04-15",
+      "authors": ["Susan Gentz", "Melody Kimbrell"],
+      "description": "Examines the debate over reducing screen time in schools, addressing concerns about technology's impact on student learning and wellbeing."
+    },
+    {
+      "title": "Discover Partners That Support Quick Deployment, AI Compliance, and Easier Logins",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-apr-2026",
+      "date": "2026-04-23",
+      "category": "Partnerships",
+      "description": "Highlights partner solutions addressing time-saving, access simplification, and classroom impact."
+    },
+    {
+      "title": "New Features that Make Provisioning Faster, Safer and Less Stressful",
+      "url": "https://www.classlink.com/blog/classlink-products-apr-2026",
+      "date": "2026-04-23",
+      "category": "ClassLink Products",
+      "description": "OneSync updates designed to reduce risk and control during user account management across multiple directory systems."
+    },
+    {
+      "title": "4 Steps You Can Take (Right Now) to Prep ClassLink for Back-to-School Season",
+      "url": "https://www.classlink.com/blog/4-steps-you-can-take-right-now-to-prep-classlink-for-back-to-school-season",
+      "date": "2026-04-23",
+      "category": "ClassLink Products",
+      "description": "Addresses common back-to-school issues including login problems, missing apps, and access complications."
+    },
+    {
+      "title": "CLON26: Highlights, Big Announcements, and A Look At What's Next",
+      "url": "https://www.classlink.com/blog/keeping-up-with-clon-mar-2026",
+      "date": "2026-03-19",
+      "description": "Recap of ClassLink's annual conference featuring nearly 300 district IT leaders and edtech innovators discussing digital learning."
+    },
+    {
+      "title": "Meet 24 New Partners and Our AI Innovation Showcase Winners",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-mar-2026",
+      "date": "2026-03-19",
+      "category": "Partnerships",
+      "description": "Recognizes partners contributing to making edtech implementation and adoption easier for districts."
+    },
+    {
+      "title": "24 New Capabilities Across Access, Automation, and Analytics",
+      "url": "https://www.classlink.com/blog/2026-announcements",
+      "date": "2026-03-17",
+      "category": "ClassLink Products",
+      "description": "ClassLink reviewed 150+ district strategic plans to develop capabilities addressing access, automation, and proving ROI."
+    },
+    {
+      "title": "Why Higher Education Needs Passkeys Now",
+      "url": "https://www.classlink.com/blog/why-higher-education-needs-passkeys-now",
+      "date": "2026-02-19",
+      "description": "Addresses authentication challenges in higher education, highlighting how traditional authentication methods like passwords struggle against phishing attacks."
+    },
+    {
+      "title": "Make Data-Driven Decisions Without the Assessment Data Overwhelm",
+      "url": "https://www.classlink.com/blog/make-data-driven-decisions-without-the-assessment-data-overwhelm",
+      "date": "2025-11-21",
+      "authors": ["Mary Batiwalla"],
+      "description": "Discusses organizing assessment data into meaningful insights for school transformation."
+    },
+    {
+      "title": "Do You Know How Your Apps Are Being Used?",
+      "url": "https://www.classlink.com/blog/do-you-know-how-your-apps-are-being-used",
+      "date": "2025-11-14",
+      "description": "Encourages higher ed leaders to monitor application usage patterns and frequency."
+    },
+    {
+      "title": "2 Steps for a Strong Start to Using ClassLink in 2026",
+      "url": "https://www.classlink.com/blog/classlink-products-nov-2025",
+      "date": "2025-11-13",
+      "category": "ClassLink Products",
+      "description": "Recommends scheduling annual reviews and adding 2026 Admin Meetups to calendars."
+    },
+    {
+      "title": "Finding Four-Leaf Clovers and Making Discoveries in Your Data",
+      "url": "https://www.classlink.com/blog/finding-four-leaf-clovers-and-making-discoveries-in-your-data",
+      "date": "2025-11-12",
+      "authors": ["Mary Batiwalla"],
+      "description": "Explores how curiosity and structure enable data discovery and insights."
+    },
+    {
+      "title": "Designing a Digital Campus Students Actually Love",
+      "url": "https://www.classlink.com/blog/designing-a-digital-campus-students-actually-love",
+      "date": "2025-10-30",
+      "description": "Discusses building seamless digital experiences across campus portals and systems."
+    },
+    {
+      "title": "Make Phishing Useless: ClassLink Passkeys Stop Attacks at Sign-In",
+      "url": "https://www.classlink.com/blog/make-phishing-useless-with-classlink-passkeys",
+      "date": "2025-10-07",
+      "authors": ["Stanley Watts"],
+      "description": "Introduces passkeys as an alternative to passwords, offering multi-factor security."
+    },
+    {
+      "title": "Product News to Strengthen Your Security (and Save You Time)",
+      "url": "https://www.classlink.com/blog/classlink-products-oct-2025",
+      "date": "2025-10-07",
+      "category": "ClassLink Products",
+      "description": "October Cybersecurity Awareness Month updates covering tools, integrations, and enhancements."
+    },
+    {
+      "title": "5 Things Every Higher Ed Leader Should Know About SSO",
+      "url": "https://www.classlink.com/blog/5-things-every-higher-ed-leader-should-know-about-sso",
+      "date": "2025-09-11",
+      "authors": ["Stanley Watts"],
+      "description": "Positions SSO as essential for user experience and cybersecurity in higher education."
+    },
+    {
+      "title": "Partnering With ClassLink: September 2025",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-sep-2025",
+      "date": "2025-09-02",
+      "category": "Partnerships",
+      "description": "Spotlights Project Lead The Way partnership supporting STEM education."
+    },
+    {
+      "title": "Hot Off the Press: ClassLink's Must-Know Product Announcements",
+      "url": "https://www.classlink.com/blog/hot-off-the-press-classlinks-must-know-product-announcements",
+      "date": "2025-08-25",
+      "description": "Shares product updates to support back-to-school success with release notes."
+    },
+    {
+      "title": "5 Critical Identity Governance Challenges (and Solutions) for Higher Ed",
+      "url": "https://www.classlink.com/blog/5-critical-identity-governance-challenges-and-solutions-for-higher-ed",
+      "date": "2025-08-21",
+      "authors": ["Dr. Barbara Nesbitt"],
+      "description": "Positions identity governance as mission-critical for colleges managing complex user populations."
+    },
+    {
+      "title": "Security Advisory: Fake ClassLink Finance DocuSign Emails Reported",
+      "url": "https://www.classlink.com/blog/fake-finance-emails",
+      "date": "2025-07-28",
+      "authors": ["Jeff Janover"],
+      "description": "Warns about phishing attempts impersonating ClassLink Finance with fake DocuSign links."
+    },
+    {
+      "title": "Moving to the Cloud? Simplify the Process With OneSync",
+      "url": "https://www.classlink.com/blog/moving-to-the-cloud-simplify-the-process-with-onesync",
+      "date": "2025-07-08",
+      "authors": ["Jodie Conklin", "Paul Ritter"],
+      "description": "Addresses cloud migration challenges and how OneSync simplifies transitions."
+    },
+    {
+      "title": "ClassLink's Default SAML Signing Certificate Will Be Updated on Sunday, July 20, 2025",
+      "url": "https://www.classlink.com/blog/2025-saml-certificate-update",
+      "date": "2025-06-10",
+      "authors": ["Stanley Watts"],
+      "description": "Technical notice about annual SAML certificate renewal for SSO applications."
+    },
+    {
+      "title": "SIS Rollover Complete? Let's Talk Next Steps",
+      "url": "https://www.classlink.com/blog/classlink-products-jun-2025",
+      "date": "2025-06-05",
+      "category": "ClassLink Products",
+      "description": "Provides checklists and summer support sessions for post-SIS rollover planning."
+    },
+    {
+      "title": "Partnering With ClassLink: June 2025",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-jun-2025",
+      "date": "2025-06-04",
+      "category": "Partnerships",
+      "description": "Highlights new app integrations, certified partners, and edtech deals."
+    },
+    {
+      "title": "Reduce Your Risk of Cyber Attacks With MFA: It's Easier Than You Think",
+      "url": "https://www.classlink.com/blog/reduce-your-risk-of-cyber-attacks-with-mfa",
+      "date": "2025-04-28",
+      "description": "Notes that 82% of US K-12 schools were victims of cyberattacks (July 2023-Dec 2024), many via weak passwords."
+    },
+    {
+      "title": "App Vetting: It's Time To Take Control of Your App Requests",
+      "url": "https://www.classlink.com/blog/app-vetting-its-time-to-take-control-of-your-app-requests",
+      "date": "2025-04-22",
+      "authors": ["Dr. Barbara Nesbitt"],
+      "description": "Addresses app vetting process challenges and adoption obstacles."
+    },
+    {
+      "title": "3 New Products, 1 Epic Event: Your CLON Catch-Up Starts Here!",
+      "url": "https://www.classlink.com/blog/keeping-up-with-clon-mar-2025",
+      "date": "2025-03-18",
+      "description": "Summarizes CLON 2025 product announcements for those unable to attend."
+    },
+    {
+      "title": "Partnering With ClassLink: March 2025",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-mar-2025",
+      "date": "2025-03-18",
+      "category": "Partnerships",
+      "description": "Reports addition of 22 new Certified Partners and 40 app integrations."
+    },
+    {
+      "title": "Stop Back-To-School Chaos Before It Starts and Save Hours of Stress This Year",
+      "url": "https://www.classlink.com/blog/stop-back-to-school-chaos-before-it-starts-and-save-hours-of-stress-this-year",
+      "date": "2025-03-13",
+      "description": "Introduces ClassLink's Back-to-School Toolkit (Edition 2) built by school tech leaders."
+    },
+    {
+      "title": "Partnering With ClassLink: February 2025",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-feb-2025",
+      "date": "2025-02-04",
+      "category": "Partnerships",
+      "description": "Announces 11 new Certified Partners and 22 new apps."
+    },
+    {
+      "title": "3 DataGuard Features That Solve Common Rostering Struggles",
+      "url": "https://www.classlink.com/blog/3-dataguard-features-that-solve-common-rostering-struggles",
+      "date": "2024-12-05",
+      "authors": ["Dr. Barbara Nesbitt"],
+      "description": "Presents Advanced DataGuard as Roster Server upgrade addressing permission challenges."
+    },
+    {
+      "title": "Partnering With ClassLink: December 2024",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-dec-2024",
+      "date": "2024-12-05",
+      "category": "Partnerships",
+      "description": "Reports 50 new apps, 16 new partners, and 1 new Preferred Partner."
+    },
+    {
+      "title": "Why Schools Rely on IAM for Robust Cybersecurity",
+      "url": "https://www.classlink.com/blog/why-schools-rely-on-iam-for-robust-cybersecurity",
+      "date": "2024-11-12",
+      "authors": ["Stanley Watts"],
+      "description": "References SANS Technology Institute president discussing MFA and access control essentials."
+    },
+    {
+      "title": "How Otus and ClassLink Partner To Enhance Grading Flexibility",
+      "url": "https://www.classlink.com/blog/otus-classlink-partnership",
+      "date": "2024-10-24",
+      "category": "Partnerships",
+      "description": "Details Otus-ClassLink integration combining student performance tools with identity management."
+    },
+    {
+      "title": "Be Prepared: New Title II ADA Updates Impact K12 Suppliers",
+      "url": "https://www.classlink.com/blog/new-title-ii-ada-updates-impact-k12-suppliers",
+      "date": "2024-10-17",
+      "authors": ["Christine Fox", "Michelle Soriano"],
+      "description": "Discusses DOJ Title II ADA updates requiring digital resource accessibility for students with disabilities."
+    },
+    {
+      "title": "Become a Cybersecurity Expert at CLON!",
+      "url": "https://www.classlink.com/blog/cybersecurity-clon-oct-2024",
+      "date": "2024-10-15",
+      "description": "Notes ransomware attacks on K-12 schools increased by 92% last year, averaging $550K daily impact."
+    },
+    {
+      "title": "Partnering With ClassLink: October 2024",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-oct-2024",
+      "date": "2024-10-15",
+      "category": "Partnerships",
+      "description": "Highlights vendor deals, app library additions, and new Certified Partners."
+    },
+    {
+      "title": "The Promises and Perils of AI in Education",
+      "url": "https://www.classlink.com/blog/the-promises-and-perils-of-ai-in-education",
+      "date": "2024-08-19",
+      "authors": ["Jerri Kemble", "Jamie Saponaro"],
+      "description": "Features Ken Shelton and Dee Lanier discussing AI potential and challenges in education."
+    },
+    {
+      "title": "ClassLink Analytics: Unified and Upgraded",
+      "url": "https://www.classlink.com/blog/classlink-analytics-unified-and-upgraded",
+      "date": "2024-05-29",
+      "authors": ["Mary Batiwalla"],
+      "description": "Introduces ClassLink Analytics for monitoring digital resource access and ROI."
+    },
+    {
+      "title": "ClassLink's Default SAML Signing Certificate Will Be Updated on Sunday, July 28, 2024",
+      "url": "https://www.classlink.com/blog/2024-saml-certificate-update",
+      "date": "2024-05-08",
+      "authors": ["Stanley Watts"],
+      "description": "Technical notice about annual SAML certificate renewal."
+    },
+    {
+      "title": "Partnering With ClassLink: May 2024",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-may-2024",
+      "date": "2024-05-07",
+      "category": "Partnerships",
+      "description": "Announces 36 new apps and 12 new Certified Partners."
+    },
+    {
+      "title": "Directory Scoping: The Key to Securing Your Public Data",
+      "url": "https://www.classlink.com/blog/fortify-your-google-directory",
+      "date": "2024-04-11",
+      "authors": ["Jeff Janover"],
+      "description": "Addresses directory scraping threats and directory scoping defense strategies."
+    },
+    {
+      "title": "Partnering With ClassLink: March 2024",
+      "url": "https://www.classlink.com/blog/partnering-with-classlink-mar-2024",
+      "date": "2024-03-12",
+      "category": "Partnerships",
+      "description": "Reports 16 new apps and 10 new Certified Partners."
+    }
+  ]
+}

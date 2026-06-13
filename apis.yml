@@ -133,6 +133,10 @@ common:
     url: rate-limits/classlink-rate-limits.yml
   - type: FinOps
     url: finops/classlink-finops.yml
+  - type: BlogPosts
+    url: blogs/blogs.json
+  - type: JsonLdContext
+    url: json-ld/classlink-context.jsonld
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

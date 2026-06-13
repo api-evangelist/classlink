@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "classlink": "https://www.classlink.com/vocab#",
+    "oneroster": "https://www.imsglobal.org/oneroster/v1p1#",
+
+    "ClassLinkProvider": "classlink:Provider",
+    "LaunchPad": "classlink:LaunchPad",
+    "OneRosterAPI": "classlink:OneRosterAPI",
+    "RosterServer": "classlink:RosterServer",
+    "OneSync": "classlink:OneSync",
+    "Analytics": "classlink:Analytics",
+    "AnalyticsPlus": "classlink:AnalyticsPlus",
+    "DataGuard": "classlink:DataGuard",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "image": "schema:image",
+    "identifier": "schema:identifier",
+
+    "Organization": "schema:Organization",
+    "SoftwareApplication": "schema:SoftwareApplication",
+    "WebAPI": "schema:WebAPI",
+    "Person": "schema:Person",
+    "EducationalOrganization": "schema:EducationalOrganization",
+    "Course": "schema:Course",
+    "CourseInstance": "schema:CourseInstance",
+
+    "provider": {
+      "@id": "schema:provider",
+      "@type": "@id"
+    },
+    "documentation": {
+      "@id": "schema:documentation",
+      "@type": "@id"
+    },
+    "termsOfService": {
+      "@id": "schema:termsOfService",
+      "@type": "@id"
+    },
+
+    "OneRosterUser": "oneroster:User",
+    "OneRosterOrg": "oneroster:Org",
+    "OneRosterCourse": "oneroster:Course",
+    "OneRosterClass": "oneroster:Class",
+    "OneRosterEnrollment": "oneroster:Enrollment",
+    "OneRosterAcademicSession": "oneroster:AcademicSession",
+    "OneRosterDemographics": "oneroster:Demographics",
+
+    "sourcedId": "oneroster:sourcedId",
+    "status": "oneroster:status",
+    "dateLastModified": {
+      "@id": "oneroster:dateLastModified",
+      "@type": "xsd:dateTime"
+    },
+    "metadata": "oneroster:metadata",
+    "givenName": "schema:givenName",
+    "familyName": "schema:familyName",
+    "email": "schema:email",
+    "role": "oneroster:role",
+    "grades": "oneroster:grades",
+    "orgType": "oneroster:orgType",
+    "title": "schema:title",
+    "schoolYear": "oneroster:schoolYear",
+    "beginDate": {
+      "@id": "oneroster:beginDate",
+      "@type": "xsd:date"
+    },
+    "endDate": {
+      "@id": "oneroster:endDate",
+      "@type": "xsd:date"
+    },
+
+    "OAuthCredential": "classlink:OAuthCredential",
+    "clientId": "classlink:clientId",
+    "accessToken": "classlink:accessToken",
+    "districtId": "classlink:districtId",
+    "tenantId": "classlink:tenantId",
+    "scopedPermissions": "classlink:scopedPermissions",
+
+    "appUsageEvent": "classlink:appUsageEvent",
+    "loginEvent": "classlink:loginEvent",
+    "sessionDuration": "classlink:sessionDuration",
+    "appLaunchCount": "classlink:appLaunchCount",
+    "licenseUtilization": "classlink:licenseUtilization",
+    "deviceType": "classlink:deviceType",
+
+    "provisioningAction": "classlink:provisioningAction",
+    "connectorType": "classlink:connectorType",
+    "sisSource": "classlink:sisSource",
+    "directoryType": "classlink:directoryType",
+    "syncFrequency": "classlink:syncFrequency",
+
+    "K12District": "classlink:K12District",
+    "HigherEdInstitution": "classlink:HigherEdInstitution",
+    "SchoolBuilding": "classlink:SchoolBuilding",
+    "Student": "classlink:Student",
+    "Teacher": "classlink:Teacher",
+    "Administrator": "classlink:Administrator",
+    "Parent": "classlink:Parent",
+
+    "EdTech": "classlink:EdTech",
+    "LearningResource": "schema:LearningResource",
+    "CertifiedPartner": "classlink:CertifiedPartner",
+    "AppLibrary": "classlink:AppLibrary",
+    "AppIntegration": "classlink:AppIntegration",
+
+    "SAMLConfig": "classlink:SAMLConfig",
+    "LTIConfig": "classlink:LTIConfig",
+    "SSO": "classlink:SSO",
+    "MFA": "classlink:MFA",
+    "Passkey": "classlink:Passkey",
+    "IAM": "classlink:IAM",
+    "identityProvider": "classlink:identityProvider",
+    "serviceProvider": "classlink:serviceProvider",
+    "assertionConsumerServiceURL": "classlink:assertionConsumerServiceURL",
+    "entityId": "classlink:entityId",
+
+    "createdAt": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:dateTime"
+    },
+    "updatedAt": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    }
+  }
+}
