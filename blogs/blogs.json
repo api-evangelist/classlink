@@ -14,7 +14,10 @@
       "title": "From Ban To Balance: A Smarter Approach to Technology in Schools",
       "url": "https://www.classlink.com/blog/from-ban-to-balance-a-smarter-approach-to-technology-in-schools",
       "date": "2026-04-15",
-      "authors": ["Susan Gentz", "Melody Kimbrell"],
+      "authors": [
+        "Susan Gentz",
+        "Melody Kimbrell"
+      ],
       "description": "Examines the debate over reducing screen time in schools, addressing concerns about technology's impact on student learning and wellbeing."
     },
     {
@@ -68,7 +71,9 @@
       "title": "Make Data-Driven Decisions Without the Assessment Data Overwhelm",
       "url": "https://www.classlink.com/blog/make-data-driven-decisions-without-the-assessment-data-overwhelm",
       "date": "2025-11-21",
-      "authors": ["Mary Batiwalla"],
+      "authors": [
+        "Mary Batiwalla"
+      ],
       "description": "Discusses organizing assessment data into meaningful insights for school transformation."
     },
     {
@@ -88,7 +93,9 @@
       "title": "Finding Four-Leaf Clovers and Making Discoveries in Your Data",
       "url": "https://www.classlink.com/blog/finding-four-leaf-clovers-and-making-discoveries-in-your-data",
       "date": "2025-11-12",
-      "authors": ["Mary Batiwalla"],
+      "authors": [
+        "Mary Batiwalla"
+      ],
       "description": "Explores how curiosity and structure enable data discovery and insights."
     },
     {
@@ -101,7 +108,9 @@
       "title": "Make Phishing Useless: ClassLink Passkeys Stop Attacks at Sign-In",
       "url": "https://www.classlink.com/blog/make-phishing-useless-with-classlink-passkeys",
       "date": "2025-10-07",
-      "authors": ["Stanley Watts"],
+      "authors": [
+        "Stanley Watts"
+      ],
       "description": "Introduces passkeys as an alternative to passwords, offering multi-factor security."
     },
     {
@@ -115,7 +124,9 @@
       "title": "5 Things Every Higher Ed Leader Should Know About SSO",
       "url": "https://www.classlink.com/blog/5-things-every-higher-ed-leader-should-know-about-sso",
       "date": "2025-09-11",
-      "authors": ["Stanley Watts"],
+      "authors": [
+        "Stanley Watts"
+      ],
       "description": "Positions SSO as essential for user experience and cybersecurity in higher education."
     },
     {
@@ -135,28 +146,37 @@
       "title": "5 Critical Identity Governance Challenges (and Solutions) for Higher Ed",
       "url": "https://www.classlink.com/blog/5-critical-identity-governance-challenges-and-solutions-for-higher-ed",
       "date": "2025-08-21",
-      "authors": ["Dr. Barbara Nesbitt"],
+      "authors": [
+        "Dr. Barbara Nesbitt"
+      ],
       "description": "Positions identity governance as mission-critical for colleges managing complex user populations."
     },
     {
       "title": "Security Advisory: Fake ClassLink Finance DocuSign Emails Reported",
       "url": "https://www.classlink.com/blog/fake-finance-emails",
       "date": "2025-07-28",
-      "authors": ["Jeff Janover"],
+      "authors": [
+        "Jeff Janover"
+      ],
       "description": "Warns about phishing attempts impersonating ClassLink Finance with fake DocuSign links."
     },
     {
       "title": "Moving to the Cloud? Simplify the Process With OneSync",
       "url": "https://www.classlink.com/blog/moving-to-the-cloud-simplify-the-process-with-onesync",
       "date": "2025-07-08",
-      "authors": ["Jodie Conklin", "Paul Ritter"],
+      "authors": [
+        "Jodie Conklin",
+        "Paul Ritter"
+      ],
       "description": "Addresses cloud migration challenges and how OneSync simplifies transitions."
     },
     {
       "title": "ClassLink's Default SAML Signing Certificate Will Be Updated on Sunday, July 20, 2025",
       "url": "https://www.classlink.com/blog/2025-saml-certificate-update",
       "date": "2025-06-10",
-      "authors": ["Stanley Watts"],
+      "authors": [
+        "Stanley Watts"
+      ],
       "description": "Technical notice about annual SAML certificate renewal for SSO applications."
     },
     {
@@ -183,7 +203,9 @@
       "title": "App Vetting: It's Time To Take Control of Your App Requests",
       "url": "https://www.classlink.com/blog/app-vetting-its-time-to-take-control-of-your-app-requests",
       "date": "2025-04-22",
-      "authors": ["Dr. Barbara Nesbitt"],
+      "authors": [
+        "Dr. Barbara Nesbitt"
+      ],
       "description": "Addresses app vetting process challenges and adoption obstacles."
     },
     {
@@ -216,7 +238,9 @@
       "title": "3 DataGuard Features That Solve Common Rostering Struggles",
       "url": "https://www.classlink.com/blog/3-dataguard-features-that-solve-common-rostering-struggles",
       "date": "2024-12-05",
-      "authors": ["Dr. Barbara Nesbitt"],
+      "authors": [
+        "Dr. Barbara Nesbitt"
+      ],
       "description": "Presents Advanced DataGuard as Roster Server upgrade addressing permission challenges."
     },
     {
@@ -230,7 +254,9 @@
       "title": "Why Schools Rely on IAM for Robust Cybersecurity",
       "url": "https://www.classlink.com/blog/why-schools-rely-on-iam-for-robust-cybersecurity",
       "date": "2024-11-12",
-      "authors": ["Stanley Watts"],
+      "authors": [
+        "Stanley Watts"
+      ],
       "description": "References SANS Technology Institute president discussing MFA and access control essentials."
     },
     {
@@ -244,7 +270,10 @@
       "title": "Be Prepared: New Title II ADA Updates Impact K12 Suppliers",
       "url": "https://www.classlink.com/blog/new-title-ii-ada-updates-impact-k12-suppliers",
       "date": "2024-10-17",
-      "authors": ["Christine Fox", "Michelle Soriano"],
+      "authors": [
+        "Christine Fox",
+        "Michelle Soriano"
+      ],
       "description": "Discusses DOJ Title II ADA updates requiring digital resource accessibility for students with disabilities."
     },
     {
@@ -264,21 +293,28 @@
       "title": "The Promises and Perils of AI in Education",
       "url": "https://www.classlink.com/blog/the-promises-and-perils-of-ai-in-education",
       "date": "2024-08-19",
-      "authors": ["Jerri Kemble", "Jamie Saponaro"],
+      "authors": [
+        "Jerri Kemble",
+        "Jamie Saponaro"
+      ],
       "description": "Features Ken Shelton and Dee Lanier discussing AI potential and challenges in education."
     },
     {
       "title": "ClassLink Analytics: Unified and Upgraded",
       "url": "https://www.classlink.com/blog/classlink-analytics-unified-and-upgraded",
       "date": "2024-05-29",
-      "authors": ["Mary Batiwalla"],
+      "authors": [
+        "Mary Batiwalla"
+      ],
       "description": "Introduces ClassLink Analytics for monitoring digital resource access and ROI."
     },
     {
       "title": "ClassLink's Default SAML Signing Certificate Will Be Updated on Sunday, July 28, 2024",
       "url": "https://www.classlink.com/blog/2024-saml-certificate-update",
       "date": "2024-05-08",
-      "authors": ["Stanley Watts"],
+      "authors": [
+        "Stanley Watts"
+      ],
       "description": "Technical notice about annual SAML certificate renewal."
     },
     {
@@ -292,7 +328,9 @@
       "title": "Directory Scoping: The Key to Securing Your Public Data",
       "url": "https://www.classlink.com/blog/fortify-your-google-directory",
       "date": "2024-04-11",
-      "authors": ["Jeff Janover"],
+      "authors": [
+        "Jeff Janover"
+      ],
       "description": "Addresses directory scraping threats and directory scoping defense strategies."
     },
     {
@@ -302,5 +340,17 @@
       "category": "Partnerships",
       "description": "Reports 16 new apps and 10 new Certified Partners."
     }
-  ]
+  ],
+  "repo": "classlink",
+  "feeds": [
+    {
+      "source": "https://twitter.com/classlink",
+      "feed_url": "https://twitter.com/classlink",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
