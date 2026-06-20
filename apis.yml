@@ -15,7 +15,7 @@ description: >-
   multi-language request libraries (C#, Java, JavaScript, PHP, Ruby, Python, Go)
   on GitHub and a partner developer portal.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -41,7 +41,7 @@ apis:
       orgs, courses, classes, enrollments, academicSessions, demographics, and
       resources—between ClassLink Roster Server and third-party educational
       applications using OAuth 1.0a or OAuth 2.0.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://help.classlink.com/s/rosterserver-home
     baseURL: https://launchpad.classlink.com
     tags:
@@ -61,7 +61,7 @@ apis:
       authenticate users via ClassLink LaunchPad, obtain access tokens, and
       retrieve identity profile data including name, email, and district
       affiliation through the LaunchPad scoped API.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://help.classlink.com/s/classlink-partners-home
     baseURL: https://launchpad.classlink.com/oauth2/v2
     tags:
@@ -80,7 +80,7 @@ apis:
       Analytics and Analytics+, enabling administrators and vendors to
       programmatically access telemetry on how digital resources are used across
       school devices.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.classlink.com/products/analytics
     baseURL: https://launchpad.classlink.com
     tags:
@@ -97,7 +97,7 @@ apis:
       ClassLink, allowing administrators to automate creation, update, and
       deprovisioning of user accounts in connected applications through
       ClassLink's application catalog and connector framework.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://help.classlink.com/s/classlink-partners-home
     baseURL: https://launchpad.classlink.com
     tags:
