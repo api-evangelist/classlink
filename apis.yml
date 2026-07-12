@@ -109,6 +109,10 @@ apis:
       - type: Documentation
         url: https://help.classlink.com/s/classlink-partners-home
 common:
+  - type: TrustCenter
+    url: security/classlink-trust-center.yml
+  - type: DomainSecurity
+    url: security/classlink-domain-security.yml
   - type: Website
     url: https://www.classlink.com/
   - type: Documentation
