@@ -121,6 +121,8 @@ apis:
       - type: Documentation
         url: https://help.classlink.com/s/classlink-partners-home
 common:
+  - type: IssueTracker
+    url: https://github.com/classlinkinc/request-libraries/issues
   - type: TrustCenter
     url: security/classlink-trust-center.yml
   - type: DomainSecurity
