@@ -44,6 +44,20 @@ tags:
   - Analytics
   - K-12
   - LTI
+  - Authentication
+  - Student Data
+tags_raw:
+  - EdTech
+  - Education
+  - Identity
+  - Single Sign-On
+  - SSO
+  - OneRoster
+  - Rostering
+  - Provisioning
+  - Analytics
+  - K-12
+  - LTI
   - OAuth
   - Student Data
 apis:
@@ -77,6 +91,11 @@ apis:
     humanURL: https://help.classlink.com/s/classlink-partners-home
     baseURL: https://launchpad.classlink.com/oauth2/v2
     tags:
+      - Authentication
+      - SSO
+      - Identity
+      - OpenID Connect
+    tags_raw:
       - OAuth2
       - SSO
       - Authentication
@@ -113,6 +132,11 @@ apis:
     humanURL: https://help.classlink.com/s/classlink-partners-home
     baseURL: https://launchpad.classlink.com
     tags:
+      - Provisioning
+      - Identity
+      - User Management
+      - Application
+    tags_raw:
       - Provisioning
       - Identity
       - User Management
