@@ -15,6 +15,18 @@ description: >-
   multi-language request libraries (C#, Java, JavaScript, PHP, Ruby, Python, Go)
   on GitHub and a partner developer portal.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
