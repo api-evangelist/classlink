@@ -48,7 +48,6 @@ tags:
   - EdTech
   - Education
   - Identity
-  - Single Sign-On
   - SSO
   - OneRoster
   - Rostering
@@ -83,6 +82,12 @@ apis:
     humanURL: https://help.classlink.com/s/rosterserver-home
     baseURL: https://launchpad.classlink.com
     tags:
+      - OneRoster
+      - Rostering
+      - Students
+      - Courses
+      - Enrollment
+    tags_raw:
       - OneRoster
       - Rostering
       - Students
