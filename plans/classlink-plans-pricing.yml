@@ -62,3 +62,27 @@ plans:
 contact:
   email: info@classlink.com
   url: https://www.classlink.com/contact
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: District License
+    access: paid
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Analytics Add-On
+    access: paid
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Developer / Partner Integration
+    access: partner
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
