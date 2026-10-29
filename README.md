@@ -1,4 +1,4 @@
-# ClassLink (classlink)
+# ClassLink
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,54 +66,113 @@
 
 ClassLink is an EdTech identity and access management platform purpose-built for K-12 school districts, providing single sign-on (SSO) to over 6,000 digital learning resources through its LaunchPad portal. The platform offers a OneRoster-compliant REST API for secure rostering and student data exchange, enabling automated provisioning and synchronization between student information systems and educational applications. ClassLink OneSync handles identity management and account provisioning integrations with any SIS, while Roster Server facilitates standards-based data sharing using OAuth 1.0 and OAuth 2.0. The Analytics and Analytics+ products expose usage telemetry APIs that help district administrators track edtech engagement and license utilization across all devices. ClassLink maintains open developer resources including multi-language request libraries (C#, Java, JavaScript, PHP, Ruby, Python, Go) on GitHub and a partner developer portal.
 
-**APIs.json:** https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/apis.yml
+**Areas:** EdTech · Education · Identity · SSO · OneRoster · Rostering · Provisioning · Analytics · K-12 · LTI · Authentication · Student Data
 
-**Naftiko:** https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=classlink-api-evangelist&utm_content=repo
+## ClassLink on APIs.io
 
-## Tags
+Everything profiled for ClassLink is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/classlink/](https://apis.io/providers/classlink/)** — or go straight to one of the APIs or properties below.
 
-EdTech, Education, Identity, Single Sign-On, SSO, OneRoster, Rostering, Provisioning, Analytics, K-12, LTI, OAuth, Student Data
+### APIs (4)
 
-## APIs
+- [ClassLink OneRoster API](https://apis.io/apis/classlink/classlink-oneroster-api/) — OneRoster v1.1-compliant REST API for exchanging K-12 roster data—users, orgs, courses, classes, enrollments, academicSessions, demographics, and…
+- [ClassLink OAuth2 / SSO API](https://apis.io/apis/classlink/classlink-oauth2-sso-api/) — OAuth 2.0 authorization code flow enabling third-party applications to authenticate users via ClassLink LaunchPad, obtain access tokens, and retrieve…
+- [ClassLink Analytics API](https://apis.io/apis/classlink/classlink-analytics-api/) — API providing district-level edtech usage analytics, application engagement metrics, and license utilization data gathered by ClassLink Analytics and…
+- [ClassLink Application Provisioning API](https://apis.io/apis/classlink/classlink-application-provisioning-api/) — REST API for provisioning and managing application accounts within ClassLink, allowing administrators to automate creation, update, and deprovisioning of…
 
-| Name | Description |
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Classlink Context](https://apis.io/jsonld/classlink/classlink-context/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Classlink Domain Security](https://apis.io/security/classlink/classlink-domain-security/)
+- [Classlink Trust Center](https://apis.io/security/classlink/classlink-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Classlink Plans Pricing](https://apis.io/plans/classlink/classlink-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Classlink Rate Limits](https://apis.io/rate-limits/classlink/classlink-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Classlink Finops](https://apis.io/finops/classlink/classlink-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.classlink.com/)
+- [Documentation](https://help.classlink.com/s/classlink-partners-home)
+- [Pricing](https://www.classlink.com/contact)
+- [Blog](https://www.classlink.com/resources/blog)
+- [Status](https://status.classlink.com/)
+
+## API Evangelist rating
+
+**Kin Score 26.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| ClassLink OneRoster API | OneRoster v1.1-compliant REST API for exchanging K-12 roster data—users, orgs, courses, classes, enrollments, academicSessions, demographics, and resources—between ClassLink Roster Server and third-party educational applications. |
-| ClassLink OAuth2 / SSO API | OAuth 2.0 authorization code flow enabling third-party applications to authenticate users via ClassLink LaunchPad and retrieve identity profile data. |
-| ClassLink Analytics API | API providing district-level edtech usage analytics, application engagement metrics, and license utilization data. |
-| ClassLink Application Provisioning API | REST API for provisioning and managing application accounts within ClassLink, automating creation, update, and deprovisioning of user accounts. |
+| Discoverability | 71.4 |
+| Contract quality | 34.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 26.3 |
 
-## Plans / Rate Limits / FinOps
+**Agent readiness 13.6** — agent-aware
 
-| Resource | Path |
+| Agent-readiness dimension | Result |
 |---|---|
-| Plans & Pricing | [plans/classlink-plans-pricing.yml](plans/classlink-plans-pricing.yml) |
-| Rate Limits | [rate-limits/classlink-rate-limits.yml](rate-limits/classlink-rate-limits.yml) |
-| FinOps Framework | [finops/classlink-finops.yml](finops/classlink-finops.yml) |
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Timestamps
+**Regulatory alignment 15.7** — Education & Research
 
-| Field | Value |
-|---|---|
-| Created | 2026-06-13 |
-| Modified | 2026-06-13 |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/classlink/](https://apis.io/providers/classlink/).
 
-## Common
+## How this profile is made
 
-| Type | URL |
-|---|---|
-| Website | https://www.classlink.com/ |
-| Documentation | https://help.classlink.com/s/classlink-partners-home |
-| GitHub Org | https://github.com/classlinkinc |
-| GitHub Repository | https://github.com/classlinkinc/request-libraries |
-| LinkedIn | https://www.linkedin.com/company/classlink |
-| X | https://twitter.com/classlink |
-| Blog | https://www.classlink.com/resources/blog |
-| Pricing | https://www.classlink.com/contact |
-| Status Page | https://status.classlink.com/ |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Maintainers
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ClassLink: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Email |
-|---|---|
-| Kin Lane | kin@apievangelist.com |
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/classlink/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
